@@ -21,18 +21,15 @@ p {
 
 .header
 {
-  /*width: 100%; */
   height: 25%;
   background-color: rgb(36, 129, 142); /*dark teal */
-  /*margin-left: 3%;
-  margin-right: 3%; */
   margin-bottom: -24px;
+  padding-bottom: 30px; 
 }
 
 .header span
 {
   font-size: 24px;
-  /* background-color: rgb(117,188,232);  light blue */
   display: block;
 }
 
@@ -45,6 +42,9 @@ p {
 .header h1
 {
   text-align: center;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  line-height: 0.5em;
 }
 
 .header h3
@@ -87,9 +87,10 @@ p {
   background-color: rgb(253, 141, 101);
   margin-left: -15px;
   margin-top: 0px;
-  margin-right: -35;
+  margin-right: -50;
   text-align: center;
-
+  padding-right: 20px;
+  width: 105%;
 }
 
 .form p
@@ -102,5 +103,10 @@ p {
 .form input
 {
   vertical-align: left;
+}
+
+.form label
+{
+  vertical-align: top;
 }
 
