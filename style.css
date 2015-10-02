@@ -30,13 +30,19 @@ p {
 .header span
 {
   font-size: 24px;
-  display: block;
+  display: inline-block;
 }
 
-.header a
+.header-links 
 {
-  margin-left: 2em;
+  margin-left: 55em;
   text-align: right;
+  display: inline-block;
+}
+
+.header-links a
+{
+  margin-left: 1em;
 }
 
 .header h1
